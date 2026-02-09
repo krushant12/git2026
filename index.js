@@ -31,6 +31,8 @@
 let firstCard = 10;
 let secondCard = 11;
 let sum = firstCard + secondCard;
+let hasBlackJack = false;
+let isAlive = true;
 
 if (sum <= 20)
 {
@@ -39,8 +41,13 @@ if (sum <= 20)
 else if(sum === 21)
 {
     console.log("Wohoo! You've got Blackjack! 🥳");
+    hasBlackJack = true;
 }
 else
 {
     console.log("You're out of the game! 😭")
+    isAlive = false;
 }
+
+//Case Out!
+console.log(isAlive);
