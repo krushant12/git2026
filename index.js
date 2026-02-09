@@ -44,3 +44,4 @@ else
 {
     console.log("You're out of the game! 😭")
 }
+console.log("Exit");
