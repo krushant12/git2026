@@ -74,24 +74,33 @@
 // console.log(featuredPosts.length) //output = 3
 
 //array with an multiple datatypes
-let per = ["Krushant Bamroliya", 35, true]
-console.log(per[2]); //output= true
+// let per = ["Krushant Bamroliya", 35, true]
+// console.log(per[2]); //output= true
 
-//Array .push() and .pop()
-let cards = [7, 4]
-cards.push(6); //add a value in the last of array
-console.log(cards)
+// //Array .push() and .pop()
+// let cards = [7, 4]
+// cards.push(6); //add a value in the last of array
+// console.log(cards)
 
-cards.pop() //remove last value in the array
-console.log(cards)
+// cards.pop() //remove last value in the array
+// console.log(cards)
 
-let newMessage = [
-    "Check out my Netflix Clone", 
-    "Here's the code for my Project", 
-    "I've just relaunched my protfolio"
-]
-newMessage.push("Same here!");
-console.log(newMessage);
+// let newMessage = [
+//     "Check out my Netflix Clone", 
+//     "Here's the code for my Project", 
+//     "I've just relaunched my protfolio"
+// ]
+// newMessage.push("Same here!");
+// console.log(newMessage);
 
-newMessage.pop()
-console.log(newMessage);
+// newMessage.pop()
+// console.log(newMessage);
+
+// Rendom number Function
+function rendomNumbers()
+{
+    let randomNumber = Math.floor(Math.random() * 6) + 1;
+    return randomNumber;
+}
+
+console.log(rendomNumbers())
