@@ -7,14 +7,23 @@ let messageEl = document.getElementById("message-el");
 let sumEl = document.getElementById("sum-el");
 //let sumEl = document.querySelector("#sum-el");
 let cardEl = document.getElementById("card-el");
-
-let player = {
+let players = {
     name: "Krushant",
-    chips: 145
+    chips: 145,
 }
 
-let playerEl = document.getElementById("player-el")
-playerEl.textContent = player.name + " $" + player.chips;
+let playerEl = document.getElementById("player=el");
+console.log(playerEl);
+
+playerEl.textContent = player.name + ": $" + player.chips;
+
+// let player = {
+//     name: "Krushant",
+//     chips: 145
+// }
+
+// let playerEl = document.getElementById("player-el")
+// playerEl.textContent = player.name + " $" + player.chips;
 
 function getRendomCard()
 {   
